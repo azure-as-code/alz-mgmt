@@ -57,7 +57,7 @@ custom_replacements = {
     primary_private_dns_zones_enabled                                    = true
     primary_private_dns_auto_registration_zone_enabled                   = true
     primary_private_dns_resolver_enabled                                 = true
-    primary_bastion_enabled                                              = true
+    primary_bastion_enabled                                              = false
 
     # Resource provisioning secondary connectivity
     secondary_firewall_enabled                                             = true
