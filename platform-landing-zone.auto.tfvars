@@ -68,7 +68,7 @@ custom_replacements = {
     secondary_private_dns_zones_enabled                                    = true
     secondary_private_dns_auto_registration_zone_enabled                   = true
     secondary_private_dns_resolver_enabled                                 = true
-    secondary_bastion_enabled                                              = true
+    secondary_bastion_enabled                                              = false
 
     # Resource names primary connectivity
     primary_virtual_network_name                                 = "vnet-hub-$${starter_location_01}"
@@ -540,4 +540,5 @@ hub_and_spoke_vnet_virtual_networks = {
       }
     }
   }
+
 }
